@@ -1,0 +1,4 @@
+._api.sqlite
+.idea/
+composer.phar
+vendor/
