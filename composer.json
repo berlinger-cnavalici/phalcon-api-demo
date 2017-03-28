@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phalcon/devtools": "dev-master",
+        "lcobucci/jwt": "3.2"
+    }
+}
+
