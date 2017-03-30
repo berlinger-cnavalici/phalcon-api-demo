@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "663821861f7e066a898d510c2d13f6d7",
+    "content-hash": "0e094d3a0dd1fadd6680dcdf52b635d3",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -38,6 +38,53 @@
             ],
             "description": "implementation of xdg base directory specification for php",
             "time": "2014-10-24T07:27:01+00:00"
+        },
+        {
+            "name": "gte451f/phalcon-json-api-package",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gte451f/phalcon-json-api-package.git",
+                "reference": "7bd804d3738b06733688b845e50083800525e7be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gte451f/phalcon-json-api-package/zipball/7bd804d3738b06733688b845e50083800525e7be",
+                "reference": "7bd804d3738b06733688b845e50083800525e7be",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": "^3.0",
+                "jsanc623/phpbenchtime": "2.*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhalconRest\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jim",
+                    "email": "jim.jenkins.iv@gmail.com",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A set of tools designed for use in a Phalcon application to make a RESTish API",
+            "keywords": [
+                "JSON-API",
+                "api",
+                "json",
+                "phalcon",
+                "rest",
+                "restful"
+            ],
+            "time": "2017-03-23 17:50:05"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -125,6 +172,46 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "jsanc623/phpbenchtime",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jsanc623/PHPBenchTime.git",
+                "reference": "c0b5be08e6b5bc3451d59b6b6bbdfe2f9a91382b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jsanc623/PHPBenchTime/zipball/c0b5be08e6b5bc3451d59b6b6bbdfe2f9a91382b",
+                "reference": "c0b5be08e6b5bc3451d59b6b6bbdfe2f9a91382b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPBenchTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Sanchez",
+                    "email": "juan.sanchez@juanleonardosanchez.com"
+                }
+            ],
+            "description": "A light benchmark timer class for PHP.",
+            "keywords": [
+                "benchmark",
+                "benchtime",
+                "profiler",
+                "stopwatch",
+                "timer"
+            ],
+            "time": "2016-12-08T20:18:54+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -662,7 +749,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phalcon/devtools": 20
+        "phalcon/devtools": 20,
+        "gte451f/phalcon-json-api-package": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

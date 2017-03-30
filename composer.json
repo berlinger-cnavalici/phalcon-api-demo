@@ -1,7 +1,8 @@
 {
     "require": {
         "phalcon/devtools": "dev-master",
-        "lcobucci/jwt": "3.2"
+        "lcobucci/jwt": "3.2",
+        "gte451f/phalcon-json-api-package": "dev-master"
     }
 }
 
